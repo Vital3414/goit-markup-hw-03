@@ -7,6 +7,7 @@
     --background-color: #2f303a;
     --footer-tel: rgba(255, 255, 255, 0.6);
     --hero-section-4: #F5F4FA;
+    --hero-btn-focus: #188CE8;
 }
 
 .body {
@@ -113,17 +114,18 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--header-studio-color);
+    background-color: var(--header-color);
     cursor: pointer;
 }
 
 .hero-btn:hover {
     color: var(--hero-text);
-    background-color: var(--header-color);
+    background-color: var(--hero-btn-focus);
 }
 
 .hero-btn:focus {
     color: var(--hero-text);
-    background-color: var(--header-color);
+    background-color: var(--hero-btn-focus);
 }
 
 .hero-section {

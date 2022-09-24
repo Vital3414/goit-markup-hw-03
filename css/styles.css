@@ -12,6 +12,10 @@
     --portfolio-border: #F5F5F5;
 }
 
+button {
+    border: none;
+}
+
 p,
 h1,
 h2,

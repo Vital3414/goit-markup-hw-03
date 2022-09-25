@@ -111,6 +111,10 @@ img {
     margin-left: auto;
 }
 
+.alink {
+    color: var(--header-color)
+}
+
 .header-link:hover,
 .header-mail:hover,
 .header-tel:hover,
